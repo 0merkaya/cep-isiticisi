@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cep Isıtıcı</string>
+    <string name="tagline">Cebini hedef sıcaklığa kadar ısıt</string>
+
+    <string name="current_temp">Anlık batarya sıcaklığı</string>
+    <string name="target_temp">Hedef sıcaklık</string>
+    <string name="target_hint">Batarya hedefe ulaşınca yük otomatik olarak azaltılır.</string>
+    <string name="power_settings">Güç ayarları</string>
+    <string name="gpu_load">GPU yükü</string>
+    <string name="gpu_desc">Shader tabanlı maksimum GPU stresi</string>
+    <string name="cpu_cores">CPU çekirdekleri</string>
+    <string name="cpu_value">%1$d / %2$d</string>
+    <string name="background_work">Ekran kapalıyken de çalış</string>
+    <string name="background_desc">Arka planda ısıtmayı sürdürür</string>
+
+    <string name="start_heating">Isıtmayı Başlat</string>
+    <string name="stop_heating">Isıtmayı Durdur</string>
+    <string name="hint_idle">Başlatınca bildirimde Durdur düğmesi görünür.</string>
+    <string name="hint_running">Isıtma aktif. Uygulamayı kapatsan bile çalışmaya devam eder.</string>
+
+    <string name="state_ready">Hazır</string>
+    <string name="state_heating">Isıtıyor</string>
+    <string name="state_target_reached">Hedefe ulaşıldı</string>
+    <string name="state_stopped">Durduruldu</string>
+    <string name="state_safety">Güvenlik durdurması</string>
+
+    <string name="thermal_info">CPU %1$d/%2$d · GPU %3$s · %4$s</string>
+    <string name="on">açık</string>
+    <string name="off">kapalı</string>
+    <string name="thermal_normal">Termal: Normal</string>
+    <string name="thermal_light">Termal: Hafif</string>
+    <string name="thermal_moderate">Termal: Orta</string>
+    <string name="thermal_severe">Termal: Ciddi</string>
+    <string name="thermal_critical">Termal: Kritik</string>
+    <string name="thermal_unknown">Termal: —</string>
+
+    <string name="safety_title">Güvenlik</string>
+    <string name="safety_text">Batarya sıcaklığı 47°C\'ye ulaşınca uygulama kendini durdurur. Telefonu kılıfsız ve sert bir yüzeyde kullan. Aşırı ısınma batarya ömrüne zarar verebilir.</string>
+    <string name="battery_opt">Pil optimizasyonunu kapat</string>
+    <string name="battery_opt_ok">Pil optimizasyonu zaten kapalı.</string>
+    <string name="battery_opt_unavailable">Pil optimizasyonu ayarları açılamadı.</string>
+
+    <string name="notif_channel">Isıtma servisi</string>
+    <string name="notif_channel_desc">Arka planda çalışan ısıtma bildirimi</string>
+    <string name="alerts_channel">Güvenlik uyarıları</string>
+    <string name="alerts_channel_desc">Sıcaklık sınırı uyarıları</string>
+    <string name="notif_title">Cep Isıtıcı çalışıyor</string>
+    <string name="notif_text">Batarya %1$s · Hedef %2$d°C · %3$d/%4$d çekirdek</string>
+    <string name="notif_stop">Durdur</string>
+    <string name="alert_title">Isıtma güvenlik nedeniyle durduruldu</string>
+    <string name="alert_text">Batarya sıcaklığı güvenli sınırın üzerine çıktı. Telefonun soğumasını bekle.</string>
+    <string name="notification_denied">Bildirim izni verilmedi; ısıtma yine de arka planda çalışır.</string>
+</resources>
